@@ -1,0 +1,130 @@
+Commands
+
+Linux:
+	Ubuntu:
+
+To open powershell: 
+- pwsh
+
+Change directory: 
+- cd: Changes the current directory.
+	`cd [directory path]` to move to a specific directory
+	`cd ..` to move up one directory level
+	`cd` or `cd ~` to return to the home directory.
+
+Lists contents of the directory: 
+- dir: Lists current directory
+- ls: Lists the contents of a directory.
+	`ls` for basic listing
+	`ls -l` for detailed listing, 
+	`ls -a` to include hidden files.
+
+Creating new files:
+
+Deleting files:
+
+Editing files:
+
+mOVING fILES:
+Move-Item -Path "MyFolder" -Destination "D:\DestinationFolder"
+
+
+Current directory path:
+- pwd: Prints the current directory path
+	pwd` to display the full path of the current directory.
+	- Useful in confirming your current location in a file system
+
+New directory:
+- mkdr: Creates a new directory
+	`mkdir [directory name]` to create a new directory in the current location.
+	- Helpful for organizing files into new folders
+
+Removal of directory:
+- rmdir: Removes a directory.
+	`rmdir [directory name]` to delete an empty directory.
+	NOTE: Used for cleaning up and removing unused directories. Note that the directory must be empty.
+
+Interface configuration:
+- ifconfig: used either to assign network interface or display current interface info.
+	- ifconfig 'interface' [options] (interface is op)
+- ip: shows and manipulates routing, devices and tunnels
+	- 
+- netstat: used to for configurations, troubleshooting, and monitoring over a network
+
+- iwconfig: displays and changes network parameters of the network interface, specific to the wireless operation
+	- iwconfig 'interface' [options]
+Tracing:
+- traceroute: traces ip address
+	- traceroute 'options' [hostname/IP]
+
+- tracepath: traces a packet's path of origin and destination
+	- tracepath 'options' [hostname/IP]
+- ping: TCP command that checks connectivity, reachability, and name resolution
+	- Ping host: ping 'options' [hostname/IP]
+
+- mtr: 'My Trace Route' sends real-time network quality checks
+	- mtr [options] [hostname/IP]
+
+- tcpdump: Packet sniffer/network security tool. Analyzes network traffic, troubleshoots and monitors network
+	- tcpdump [options] [filter]
+	- Ex: sudo tcpdump port 80
+
+Network info/monitoring: 
+- ss: "Socket Statistics" provides details on network sockets an connections.
+	- ss 'options' 'filter'
+	- Ex: ss -lt
+- whois: queries network info and fetches domain ownership details
+	- Ex: whois google.com
+
+- iftop: views network connections and bandwidth usage in real time
+	- Primary usage: sudo iftop
+
+DNS commands:
+- dig: interogates and looks up DNS servers
+	- dig 'options' [domain] [record type] [DNS server]
+
+- nslookup: offers fundamental DNS data
+	- DNS lookup for domain: nslookup 'domain' 'DNS server'
+
+- route: views and manipulates the IP routing table
+	- route 'options' [subcommand] [arguments]
+
+- host: looks up info through the DNS
+	- host 'options' [hostname/IP]
+
+- hostname: Displays and changes the system's hostname and domain. Identifies devices in a network
+	- hostname 'options' [name] to control what the command displays
+	- sudo hostname [name]: to temporarily change system hostname
+		Check by running 'hostname' once more 
+
+- arp: displays IP-MAC address mapping
+	-arp 'options' [hostname/IP]
+
+Downloading files:
+Commands that test downloading speeds
+
+- wget: wget [options] [URL] 
+- curl: curl [options] [URL]
+
+
+
+
+
+
+
+	Debian:
+
+CHange hostname:
+sudo hostnamectl set-hostname [newhostname]
+
+> LOLCat Easter egg: echo [text]
+
+Make a new directory: "mkdir [name]" Ex: mkdir SuperGraphicUltraModernGame
+
+
+
+
+
+
+
+
