@@ -160,4 +160,10 @@ git reset --hard HEAD~1
 
 
 
+BASH SCRIPTING
 
+Bash script: a simple text file  which contains a series of commands
+	Used in linux for command execution, file navigation, and running repeated tasks/scripts
+How to write a bash script:
+	Specify interpreter: #!/bin/bash
+	
