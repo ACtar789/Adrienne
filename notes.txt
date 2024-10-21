@@ -170,7 +170,7 @@ How to write a bash script:
 	Add commands:
 		Echo : Prints text
 		Read interprets text	
-	Save
 	Give executable pemissions : chmod +x (name.sh)
+	Save
 
 	
