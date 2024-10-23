@@ -180,6 +180,12 @@ How to write a bash script:
 		
 		Read: interprets text
 
+<<<<<<< HEAD
+=======
+	
+	
+
+>>>>>>> origin/main
 	
 System security: Linux
 	- Keep everyone at least privelege (no sudo/admin) 
