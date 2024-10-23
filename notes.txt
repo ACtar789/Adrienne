@@ -167,10 +167,30 @@ Bash script: a simple text file  which contains a series of commands
 How to write a bash script:
 	Open a text editor: Ex: nano
 	Specify interpreter: #!/bin/bash
-	Add commands:
-		Echo : Prints text
-		Read interprets text	
+	Add commands
 	Give executable pemissions : chmod +x (name.sh)
 	Save
 
+	Script concepts:
+		#: Comment- All text after the " # " will not be counted as a command. Used to explain the code to the reader.
+ 		Echo : Displays text
+			Echo can be used for troubleshooting. Putting an echo inside and outside an "if" block will assist in troubleshooting
+		If: CHecks if a statement is true. COntrols which parts of the script run.
+		Variables: Store Values
+		
+		Read: interprets text
+
 	
+System security: Linux
+	- Keep everyone at least privelege (no sudo/admin) 
+	- User and group permissions
+		CHange file owner: bash: chown user:group
+			Only root can change the owner. sudo is required.
+	- Regular updates
+	- Firewalls
+	- Strong password policies
+	- Auditing and logging
+	- Secure shell (SSH)
+	- DIsable unnecessary services
+	- Data encryption
+	- Backup regularly
