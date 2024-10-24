@@ -181,8 +181,6 @@ How to write a bash script:
 		Read: interprets text
 
 <<<<<<< HEAD
-=======
-	
 	
 
 >>>>>>> origin/main
