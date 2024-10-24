@@ -176,7 +176,8 @@ How to write a bash script:
  		Echo : Displays text
 			Echo can be used for troubleshooting. Putting an echo inside and outside an "if" block will assist in troubleshooting
 		If: CHecks if a statement is true. COntrols which parts of the script run.
-		Variables: Store Values
+		Variables: Store Values, $
+		touch: writes files
 		
 		Read: interprets text
 
