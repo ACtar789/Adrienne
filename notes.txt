@@ -114,6 +114,13 @@ Commands that test downloading speeds
 
 	Debian:
 
+Lists contents of the directory: 
+- dir: Lists current directory
+- ls: Lists the contents of a directory.
+	`ls` for basic listing
+	`ls -l` for detailed listing, 
+	`ls -a` to include hidden files.
+
 CHange hostname:
 sudo hostnamectl set-hostname [newhostname]
 
