@@ -107,11 +107,6 @@ Commands that test downloading speeds
 - curl: curl [options] [URL]
 
 
-
-
-
-
-
 	Debian:
 
 Lists contents of the directory: 
@@ -189,12 +184,11 @@ How to write a bash script:
 		Read: interprets text
 
 <<<<<<< HEAD
-	
 
 >>>>>>> origin/main
 	
 System security: Linux
-	- Keep everyone at least privelege (no sudo/admin) 
+	- Keep everyone at least privilege (no sudo/admin) 
 	- User and group permissions
 		CHange file owner: bash: chown user:group
 			Only root can change the owner. sudo is required.
@@ -203,7 +197,7 @@ System security: Linux
 	- Strong password policies
 	- Auditing and logging
 	- Secure shell (SSH)
-	- DIsable unnecessary services
+	- Disable unnecessary services
 	- Data encryption
 	- Backup regularly
 
