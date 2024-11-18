@@ -206,3 +206,6 @@ System security: Linux
 	- DIsable unnecessary services
 	- Data encryption
 	- Backup regularly
+
+Octal Notation
+
