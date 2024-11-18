@@ -208,4 +208,11 @@ System security: Linux
 	- Backup regularly
 
 Octal Notation
-
+chmod +x = executable
+Permissions guide: RWX
+	r= read-only (value of 4)
+	w= write permissions (value of 2)
+	x= executable (value of 1)
+	-= no permissions (0)
+	Values should be added up accordingly
+	Ex: 4 + 2 + 1= 7= all permissions
