@@ -210,3 +210,8 @@ Permissions guide: RWX
 	-= no permissions (0)
 	Values should be added up accordingly
 	Ex: 4 + 2 + 1= 7= all permissions
+		Looks like: rwx, rw-, r--
+Permissions can be set all at once in sequence: Owner|Group|Other
+	Ex: chmod 7 6 4
+		owner|group|Other
+
