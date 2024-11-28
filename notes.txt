@@ -214,4 +214,9 @@ Permissions guide: RWX
 Permissions can be set all at once in sequence: Owner|Group|Other
 	Ex: chmod 7 6 4
 		owner|group|Other
+Systems, Users, & Permissions
+	USER TYPES: Root, Daemons/System Users, REgular, Guest
+	All have permissions (ex: rwx) defined by the system 
+	FILE SYSTEM: Governed by permissions (Permissions:/rwx)
+	Affects the System, which defines the permissions
 
