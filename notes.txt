@@ -19,12 +19,6 @@ Lists contents of the directory:
 	`ls -l` for detailed listing, 
 	`ls -a` to include hidden files.
 
-Creating new files:
-
-Deleting files:
-
-Editing files:
-
 mOVING fILES:
 Move-Item -Path "MyFolder" -Destination "D:\DestinationFolder"
 
